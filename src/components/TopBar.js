@@ -22,7 +22,7 @@ export default class TopBar extends Component{
             <div className="wrapTop">
                 <div className="TopBar">
                     <button className="button" onClick={this.scrollTo.bind(this)}>About</button>
-                    <button className="button">Resume</button>
+                    <button className="button">CV</button>
                     <button className="button">Photos close to my heart</button>
                 </div>
                 <div className="clear"></div>
