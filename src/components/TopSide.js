@@ -15,7 +15,6 @@ export default class TopSide extends Component {
                    <span>'Don't take life too seriously. It's not like you can get out of it alive!'</span>
                    <h6>Elbert Hubbard</h6>
                </div>
-               <div className="clear"></div>
               </div>
             </div>
         )

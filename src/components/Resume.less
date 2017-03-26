@@ -1,29 +1,38 @@
 .Resume {
-    height: 100%;
-    border: 2px solid crimson;
-    background-color: #e6f7ff;
+    background-color: #efefef; 
     font-family: Georgia;
     font-size: 12px;
+    // overflow: hidden;
 }
 
 h3 {
     text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-bottom: 1px solid #ff3b3f;
+    font-style: normal;
+}
+.languages {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.languages ul {
+    padding-left: 0;
 }
 .languages li {
     list-style: none;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 12px;
     text-align: center;
-    width: 20%;
+    width: 25%;
 }
 .language li h5 {
     font-size: 5px;
 }
 .experience {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .company {
     text-decoration: none;
@@ -39,4 +48,29 @@ list-style: none;
 }
 .description-master {
     padding-bottom: 10px;
+}
+
+.arrow {
+    background-color: efefef;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.arrow i {
+    color: #ff3b3f;
+    transition: all 2s linear;
+}
+.flipped {
+    transform: rotate(180deg);
+}
+.show {
+    height: 850px;
+}
+.hide{
+    height: 0;
+    overflow: hidden;
+}
+.moreInf {
+    transition: all 2s linear;
+    overflow: hidden;
 }

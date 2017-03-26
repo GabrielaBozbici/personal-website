@@ -16,7 +16,6 @@ class App extends Component {
       <div className="App">
         <TopBar/>
         <TopSide/>
-        <div className="clear"></div>
         <About />
         <Resume />
         <PhotosDear/>
